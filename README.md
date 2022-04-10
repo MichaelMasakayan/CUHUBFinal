@@ -18,5 +18,5 @@ e.used https://codesandbox.io to edit and work live with other members
 
 
 6. INSTRUCTIONS FOR RUNNING
-a. go to https://7g7ygp.csb.app/home and use website
+a. go to https://7g7ygp.csb.app/ and use website
 
