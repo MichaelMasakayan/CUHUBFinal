@@ -1,2 +1,2 @@
-# CUHUBFinal
+# UniClub
 Created with CodeSandbox

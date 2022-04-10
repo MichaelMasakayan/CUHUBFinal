@@ -1,0 +1,149 @@
+.header-img {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 30px;
+}
+
+.club-list {
+  margin-left: 2.5rem;
+}
+
+.header-style {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
+  background-color: #f3f0f7;
+}
+
+.calendar-img {
+  height: 20rem;
+  width: 30rem;
+}
+
+/*.home {
+  padding
+}*/
+
+/* Style the header */
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  padding: 0 10px;
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Left and right column */
+.column.side {
+  width: 50%;
+}
+@media (max-width: 600px) {
+  .column.side,
+  .column.middle {
+    width: 100%;
+  }
+}
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cal-img {
+  display: block;
+  margin: auto;
+  padding-bottom: 1rem;
+  width: 90%;
+}
+
+.column.side.image {
+  width: 80%;
+  max-width: 100%;
+  height: auto;
+  float: middle;
+  position: relative;
+}
+.column.side.image.two {
+  width: 50%;
+  max-width: 80%;
+  height: auto;
+  float: middle;
+  position: relative;
+}
+
+.flex-container {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: space-between; /* could also try with space-around */
+}
+
+.flex-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  height: calc(
+    100% - 20px
+  ); /* for demonstration purposes, subtracts top and bottom margin from height */
+  margin: 10px; /* for demonstration purposes */
+}
+
+.club-img {
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+}
+.p {
+  display: table;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 10%;
+  margin-right: 10;
+  font-size: 20px;
+}
+.h1 {
+  display: table;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  margin-left: 10%;
+  margin-right: 10;
+}
+
+.clublist-h3-spacing {
+  margin-bottom: 1rem;
+}
+
+.floater-events {
+  z-index: 100;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.floater-clubs {
+  z-index: 100;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
